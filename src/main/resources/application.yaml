@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: ecommerce-backend
+
+  datasource:
+    url: jdbc:mariadb://localhost:3306/sampledb
+    username: root
+    password: Komala1511
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.MariaDBDialect
+
+server:
+port: 8080
+
+
+
